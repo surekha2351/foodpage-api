@@ -1,0 +1,135 @@
+.menu-page {
+  padding: 20px;
+}
+
+.menu-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the items */
+  gap: 20px; /* Add space between the cards */
+}
+
+.menu-item {
+  background-color: #f9f9f9; /* Light background for better contrast */
+  border: 1px solid #ddd; /* Light border */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  width: 250px; /* Fixed width */
+  height: 400px; /* Fixed height */
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column; /* Align items vertically */
+  align-items: center; /* Center align */
+  padding: 10px; /* Padding inside each card */
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+.menu-item img {
+  width: 100%; /* Full width */
+  height: 200px; /* Fixed height for the image */
+  object-fit: cover; /* Cover the area, maintaining aspect ratio */
+  border-radius: 4px; /* Slightly rounded image corners */
+}
+
+.menu-item h2 {
+  font-size: 1.2em; /* Slightly larger font for item name */
+  margin: 10px 0 5px; /* Spacing above and below */
+}
+
+.menu-item p {
+  margin: 5px 0; /* Spacing above and below */
+}
+
+.add-to-order {
+  margin-top: auto; /* Push button to the bottom */
+  background-color: #28a745; /* Green background for button */
+  color: white; /* White text */
+  border: none; /* Remove border */
+  border-radius: 4px; /* Rounded corners */
+  padding: 10px; /* Padding */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth background change */
+}
+
+.add-to-order:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+@media (max-width: 600px) {
+  .menu-item {
+    width: 100%; /* Full width on small screens */
+    height: auto; /* Auto height */
+  }
+}
+
+
+.menu-page {
+    padding: 20px;
+  }
+  
+  .menu-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .menu-item {
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu-item-image {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+  }
+  
+  .add-to-order {
+    margin-top: 10px;
+  }
+  
+  .order-form, .order-history {
+    border: 1px solid #ccc;
+    margin: 20px 0;
+    padding: 20px;
+  }
+  
+  .order-history-button {
+    float: right;
+    margin: 10px;
+  }
+  .order-form {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .order-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .order-form input {
+    margin-top: 5px;
+    padding: 5px;
+    width: 100%;
+  }
+  .order-history-button{
+    background-color: slateblue;
+    border: none;
+    margin-right: 10%;
+    height:50px;
+    color:white;
+    font-size:20px;
+  }
+  .back-history-button{
+    background-color: slateblue;
+    border: none;
+   
+    height:50px;
+    color:white;
+    font-size:20px;
+  }
